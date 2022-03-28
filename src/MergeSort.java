@@ -9,6 +9,7 @@ public class MergeSort {
         for (int i = 0; i < N; i++) {
             arr[i] = in.nextInt();
         }
+        in.close();
 
         sort(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
