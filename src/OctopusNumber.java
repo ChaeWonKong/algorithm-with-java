@@ -21,18 +21,18 @@ public class OctopusNumber {
         for (int i = 0; i < n; i++) {
             char target = octNum.charAt(i);
             double mul = Math.pow(8, n - i - 1);
-            switch (target) {
-                case '-' -> decimal += (0 * mul);
-                case '\\' -> decimal += (1 * mul);
-                case '(' -> decimal += (2 * mul);
-                case '@' -> decimal += (3 * mul);
-                case '?' -> decimal += (4 * mul);
-                case '>' -> decimal += (5 * mul);
-                case '&' -> decimal += (6 * mul);
-                case '%' -> decimal += (7 * mul);
-                case '/' -> decimal -= mul;
-
-            }
+//            switch (target) {
+//                case '-' -> decimal += (0 * mul);
+//                case '\\' -> decimal += (1 * mul);
+//                case '(' -> decimal += (2 * mul);
+//                case '@' -> decimal += (3 * mul);
+//                case '?' -> decimal += (4 * mul);
+//                case '>' -> decimal += (5 * mul);
+//                case '&' -> decimal += (6 * mul);
+//                case '%' -> decimal += (7 * mul);
+//                case '/' -> decimal -= mul;
+//
+//            }
         }
         return decimal;
     }
